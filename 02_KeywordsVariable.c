@@ -8,3 +8,11 @@ do	if	static	while
 default	goto	sizeof	volatile
 const	float	short	unsigned */
 
+#include <stdio.h>
+int main()
+{
+    int x = 5;
+    char name[20] = "Tutul";
+    printf("%s %d", name, x);
+    return 0;
+}
